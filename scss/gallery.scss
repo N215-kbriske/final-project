@@ -1,0 +1,115 @@
+.gallery-content {
+  max-width: 980px;
+  height: 650px;
+  //   border: 2px solid red;
+  margin: 0 auto;
+
+  .gallery-header {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    margin-top: 66px;
+  }
+
+  hr {
+    width: 229px;
+    height: 2.2px;
+    border: none;
+    background-color: black;
+  }
+
+  .gallery-collage {
+    max-width: 980px;
+    height: 513px;
+    // border: 2px solid black;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .collage-row-1 {
+      display: flex;
+      justify-content: space-between;
+
+      .gallery-img-1 {
+        width: 489px;
+        height: 187px;
+        background-image: linear-gradient(
+            rgba($site-yellow, 0.8),
+            rgba($site-yellow, 0.8)
+          ),
+          url("../images/gallery/1.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      .gallery-img-2 {
+        width: 187px;
+        height: 187px;
+        background-image: linear-gradient(
+            rgba($site-pink, 0.8),
+            rgba($site-pink, 0.8)
+          ),
+          url("../images/gallery/2.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      .gallery-img-3 {
+        width: 265px;
+        height: 187px;
+        background-image: linear-gradient(
+            rgba($site-green, 0.8),
+            rgba($site-green, 0.8)
+          ),
+          url("../images/gallery/3.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+    }
+
+    .collage-row-2 {
+      display: flex;
+      justify-content: space-between;
+
+      .gallery-img-4 {
+        width: 603px;
+        height: 306px;
+        background-image: linear-gradient(
+            rgba($site-purple, 0.8),
+            rgba($site-purple, 0.8)
+          ),
+          url("../images/gallery/4.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      .gallery-img-5 {
+        width: 355px;
+        height: 306px;
+        background-image: linear-gradient(
+            rgba($site-mint-green, 0.8),
+            rgba($site-mint-green, 0.8)
+          ),
+          url("../images/gallery/5.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .gallery-content {
+    width: 450px;
+    .gallery-collage {
+      // transform: rotate(-90deg);
+    }
+  }
+}

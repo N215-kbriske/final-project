@@ -1,0 +1,91 @@
+.post-detail {
+  max-width: 1280px;
+  height: 953px;
+
+  .detail-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 981px;
+    height: 300px;
+    background-image: linear-gradient(
+        rgba($site-pink, 0.8),
+        rgba($site-pink, 0.8)
+      ),
+      url("../images/blog.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 56px auto 57px auto;
+  }
+
+  .hero-date-container {
+    width: 156px;
+    height: 156px;
+    background-color: $site-pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .hero-date {
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-size: 55px;
+      font-weight: bold;
+      color: white;
+    }
+
+    .hero-month {
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-size: 31px;
+      font-weight: lighter;
+      color: white;
+    }
+  }
+
+  .post-content-container {
+    max-width: 980px;
+    margin: 0 auto;
+
+    .post-header {
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-size: 20px;
+      color: $site-pink;
+    }
+
+    .post-content-row1 {
+      max-width: 856px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-size: 20;
+      font-weight: lighter;
+      letter-spacing: 2.2px;
+      margin-top: 30px;
+    }
+
+    .post-content-row2 {
+      max-width: 856px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-size: 20;
+      font-weight: lighter;
+      letter-spacing: 2.2px;
+      margin: 30px 0px 57px 0px;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .post-detail {
+    width: 450px;
+    margin: 0 auto;
+
+    .post-content-container {
+      // width: 450px;
+      // margin: 0 auto;
+    }
+  }
+}
