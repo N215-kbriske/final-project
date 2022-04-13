@@ -10,6 +10,7 @@
     font-size: 25px;
     letter-spacing: 1.5px;
     margin-top: 66px;
+    margin-bottom: 11px;
   }
 
   hr {
@@ -108,7 +109,16 @@
 @media screen and (max-width: 800px) {
   .gallery-content {
     width: 450px;
+
+    .gallery-header {
+
+    }
+
+    hr {
+      margin-left: 0px;
+    }
     .gallery-collage {
+      // flex-grow: inherit;
       // transform: rotate(-90deg);
     }
   }

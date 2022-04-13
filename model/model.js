@@ -189,7 +189,25 @@ var blogContent = `<div class="blog-content">
   </div>
 </div>
 </div>`;
-var contactContent = `<h1>Contact</h1>`;
+var contactContent = `<div class="contact-content">
+<div class="contact-header">CONTACT US:</div>
+<hr />
+
+<div class="contact-container">
+  <div class="contact-form">
+    <input type="text" class="row-med" placeholder="Your name. . ." />
+    <input
+      type="email"
+      class="row-med"
+      placeholder="Email address. . ."
+    />
+    <input type="text" class="row-med" placeholder="Company. . ." />
+    <input type="text" class="row-tall" placeholder="Message. . ." />
+  </div>
+  <div class="mapImage"></div>
+</div>
+<a href="#contact"><div class="send-message">SEND MESSAGE</div></a>
+</div>`;
 var post1Content = `<div class="post-detail">
 <div class="detail-hero">
   <div class="hero-date-container">
