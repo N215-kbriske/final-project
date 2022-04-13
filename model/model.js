@@ -1,41 +1,124 @@
 //data for web pages
-var homeContent = `<h1>
-<div class="banner">
-  <div class="banner-content-container">
-    <div class="banner-header">Header goes here</div>
-    <div class="banner-subHeader">Less important text goes here</div>
-    <div class="banner-text">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat
-      aliquid minus nemo sed est.
-    </div>
-    <a href="#"><button class="banner-readMore">Read More</button></a>
+var homeContent = `<div class="banner">
+<div class="banner-content-container">
+  <div class="banner-header">Header goes here</div>
+  <div class="banner-subHeader">Less important text goes here</div>
+  <div class="banner-text">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat
+    aliquid minus nemo sed est.
   </div>
+  <a href="#"><button class="banner-readMore">Read More</button></a>
+</div>
 </div>
 
 <div class="section1">
-  <div class="section1-content">
-    <div class="section1-mainText">
-      “Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-      accusantium doloremque laudantium totam rem aperiam eaque ipsa
-      quae ab illo inventore veritatis et quasi architecto beatae vitae
-      dicta sunt explicabo. Iste natus error sit voluptatem accusantium
-      doloremque laudantium totam rem aperiam eaque ipsa quae ab illo
-      inventore veritatis et quasi architecto beatae vitae dicta sunt
-      explicabo”
-    </div>
-    <div class="reviewer-name">John Smith</div>
-    <div class="reviewer-business">Corporation CEO, books author.</div>
+<div class="section1-content">
+  <div class="section1-mainText">
+    “Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+    accusantium doloremque laudantium totam rem aperiam eaque ipsa
+    quae ab illo inventore veritatis et quasi architecto beatae vitae
+    dicta sunt explicabo. Iste natus error sit voluptatem accusantium
+    doloremque laudantium totam rem aperiam eaque ipsa quae ab illo
+    inventore veritatis et quasi architecto beatae vitae dicta sunt
+    explicabo”
   </div>
+  <div class="reviewer-name">John Smith</div>
+  <div class="reviewer-business">Corporation CEO, books author.</div>
+</div>
 </div>
 <div class="section2">
-  <div class="section2-content">
-    <div class="section2-header">UPCOMING EVENTS:</div>
-    <hr />
-
-    <!-- POST CLUSTERS -->
+<div class="section2-content">
+  <div class="section2-header">UPCOMING EVENTS:</div>
+  <hr />
+  <div class="event-container">
+    <a href="#post1" class="post-link">
+      <div class="event">
+        <div class="blog-date-container">
+          <div class="blog-date">06</div>
+          <div class="blog-month">JUN</div>
+        </div>
+        <div class="event-contain">
+          <div class="event-heading">
+            Sed et persipiatis unde omnis iste natus
+          </div>
+          <div class="event-content">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Aliquid temporibus quos aspernatur
+          </div>
+        </div>
+      </div>
+    </a>
+    <a href="#post2" class="post-link">
+      <div class="event">
+        <div class="blog-date-container">
+          <div class="blog-date">30</div>
+          <div class="blog-month">JUL</div>
+        </div>
+        <div class="event-contain">
+          <div class="event-heading">
+            Sed et persipiatis unde omnis iste natus
+          </div>
+          <div class="event-content">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Aliquid temporibus quos aspernatur
+          </div>
+        </div>
+      </div>
+    </a>
+    <a href="#post3" class="post-link">
+      <div class="event">
+        <div class="blog-date-container">
+          <div class="blog-date">30</div>
+          <div class="blog-month">AUG</div>
+        </div>
+        <div class="event-contain">
+          <div class="event-heading">
+            Sed et persipiatis unde omnis iste natus
+          </div>
+          <div class="event-content">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Aliquid temporibus quos aspernatur
+          </div>
+        </div>
+      </div>
+    </a>
+    <a href="#post4" class="post-link">
+      <div class="event">
+        <div class="blog-date-container">
+          <div class="blog-date">23</div>
+          <div class="blog-month">NOV</div>
+        </div>
+        <div class="event-contain">
+          <div class="event-heading">
+            Sed et persipiatis unde omnis iste natus
+          </div>
+          <div class="event-content">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Aliquid temporibus quos aspernatur
+          </div>
+        </div>
+      </div>
+    </a>
+    <a href="#post5" class="post-link">
+      <div class="event">
+        <div class="blog-date-container">
+          <div class="blog-date">23</div>
+          <div class="blog-month">DEC</div>
+        </div>
+        <div class="event-contain">
+          <div class="event-heading">
+            Sed et persipiatis unde omnis iste natus
+          </div>
+          <div class="event-content">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Aliquid temporibus quos aspernatur
+          </div>
+        </div>
+      </div>
+    </a>
   </div>
 </div>
-</h1>`;
+</div>`;
 var aboutContent = `<div class="about-hero">
 <div class="about-hero-image"></div>
 <div class="about-hero-text">OUR HISTORY:</div>
