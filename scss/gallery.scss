@@ -109,9 +109,9 @@
 @media screen and (max-width: 800px) {
   .gallery-content {
     width: 450px;
+    height: 1150px;
 
     .gallery-header {
-
     }
 
     hr {
@@ -120,6 +120,41 @@
     .gallery-collage {
       // flex-grow: inherit;
       // transform: rotate(-90deg);
+      // border: 2px solid green;
+
+      .collage-row-1 {
+        flex-direction: column;
+
+        .gallery-img-1 {
+          width: 450px;
+          margin-bottom: 20px;
+        }
+
+        .gallery-img-2 {
+          width: 450px;
+          margin-bottom: 20px;
+        }
+
+        .gallery-img-3 {
+          width: 450px;
+          margin-bottom: 20px;
+        }
+      }
+
+      .collage-row-2 {
+        flex-direction: column;
+
+        .gallery-img-4 {
+          width: 450px;
+          height: 187px;
+          margin-bottom: 20px;
+        }
+
+        .gallery-img-5 {
+          width: 450px;
+          height: 187px;
+        }
+      }
     }
   }
 }

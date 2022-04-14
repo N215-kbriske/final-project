@@ -140,13 +140,23 @@ var galleryContent = `<div class="gallery-content">
 <hr />
 <div class="gallery-collage">
   <div class="collage-row-1">
-    <div class="gallery-img-1"></div>
-    <div class="gallery-img-2"></div>
-    <div class="gallery-img-3"></div>
+    <a href="#gallery1" class="gallery1">
+      <div class="gallery-img-1"></div>
+    </a>
+    <a href="#gallery2" class="gallery2">
+      <div class="gallery-img-2"></div>
+    </a>
+    <a href="#gallery3" class="gallery3">
+      <div class="gallery-img-3"></div>
+    </a>
   </div>
   <div class="collage-row-2">
-    <div class="gallery-img-4"></div>
-    <div class="gallery-img-5"></div>
+    <a href="#gallery4" class="gallery4">
+      <div class="gallery-img-4"></div>
+    </a>
+    <a href="#gallery5" class="gallery5">
+      <div class="gallery-img-5"></div>
+    </a>
   </div>
 </div>
 </div>`;
@@ -438,6 +448,126 @@ var post5Content = `<div class="post-detail">
     Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
     consectetur, adipisci velit, sed quia non numquam eius modi tempora
     incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+  </div>
+</div>
+</div>`;
+var gallery1Content = `<div class="gallery-detail-canvas">
+<div class="gallery-detail-hero1">
+  <div class="gallery-detail-heroText-contain">
+    <div class="gallery-detail-number">1.</div>
+    <div class="gallery-detail-heroText">food festival</div>
+  </div>
+  <div class="gallery-content-contain">
+    <div class="gallery-detail-text1">
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+      accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+      quae ab illo inventore veritatis et quasi architecto beatae vitae
+      dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+      aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+      eos qui ratione voluptatem sequi nesciunt.
+    </div>
+    <div class="gallery-detail-text2">
+      Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+      consectetur, adipisci velit, sed quia non numquam eius modi
+      tempora incidunt ut labore et dolore magnam aliquam quaerat
+      voluptatem.
+    </div>
+  </div>
+</div>
+</div>`;
+var gallery2Content = `<div class="gallery-detail-canvas">
+<div class="gallery-detail-hero2">
+  <div class="gallery-detail-heroText-contain">
+    <div class="gallery-detail-number">2.</div>
+    <div class="gallery-detail-heroText">dee-jay</div>
+  </div>
+  <div class="gallery-content-contain">
+    <div class="gallery-detail-text1">
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+      accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+      quae ab illo inventore veritatis et quasi architecto beatae vitae
+      dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+      aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+      eos qui ratione voluptatem sequi nesciunt.
+    </div>
+    <div class="gallery-detail-text2">
+      Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+      consectetur, adipisci velit, sed quia non numquam eius modi
+      tempora incidunt ut labore et dolore magnam aliquam quaerat
+      voluptatem.
+    </div>
+  </div>
+</div>
+</div>`;
+var gallery3Content = `<div class="gallery-detail-canvas">
+<div class="gallery-detail-hero3">
+  <div class="gallery-detail-heroText-contain">
+    <div class="gallery-detail-number">3.</div>
+    <div class="gallery-detail-heroText">speech</div>
+  </div>
+  <div class="gallery-content-contain">
+    <div class="gallery-detail-text1">
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+      accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+      quae ab illo inventore veritatis et quasi architecto beatae vitae
+      dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+      aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+      eos qui ratione voluptatem sequi nesciunt.
+    </div>
+    <div class="gallery-detail-text2">
+      Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+      consectetur, adipisci velit, sed quia non numquam eius modi
+      tempora incidunt ut labore et dolore magnam aliquam quaerat
+      voluptatem.
+    </div>
+  </div>
+</div>
+</div>`;
+var gallery4Content = `<div class="gallery-detail-canvas">
+<div class="gallery-detail-hero4">
+  <div class="gallery-detail-heroText-contain">
+    <div class="gallery-detail-number">4.</div>
+    <div class="gallery-detail-heroText">open foodfest</div>
+  </div>
+  <div class="gallery-content-contain">
+    <div class="gallery-detail-text1">
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+      accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+      quae ab illo inventore veritatis et quasi architecto beatae vitae
+      dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+      aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+      eos qui ratione voluptatem sequi nesciunt.
+    </div>
+    <div class="gallery-detail-text2">
+      Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+      consectetur, adipisci velit, sed quia non numquam eius modi
+      tempora incidunt ut labore et dolore magnam aliquam quaerat
+      voluptatem.
+    </div>
+  </div>
+</div>
+</div>`;
+var gallery5Content = `<div class="gallery-detail-canvas">
+<div class="gallery-detail-hero5">
+  <div class="gallery-detail-heroText-contain">
+    <div class="gallery-detail-number">5.</div>
+    <div class="gallery-detail-heroText">international</div>
+  </div>
+  <div class="gallery-content-contain">
+    <div class="gallery-detail-text1">
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+      accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+      quae ab illo inventore veritatis et quasi architecto beatae vitae
+      dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+      aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+      eos qui ratione voluptatem sequi nesciunt.
+    </div>
+    <div class="gallery-detail-text2">
+      Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+      consectetur, adipisci velit, sed quia non numquam eius modi
+      tempora incidunt ut labore et dolore magnam aliquam quaerat
+      voluptatem.
+    </div>
   </div>
 </div>
 </div>`;
