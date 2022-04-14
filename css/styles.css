@@ -393,14 +393,13 @@ footer .footer-content .copyright {
   font-weight: lighter;
 }
 .section2 .section2-content .event-container .event .event-contain {
-  width: 140px;
+  max-width: 140px;
   height: 122px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 .section2 .section2-content .event-container .event .event-contain .event-heading {
-  width: 140px;
   height: 40px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 15px;
@@ -408,7 +407,6 @@ footer .footer-content .copyright {
   font-weight: lighter;
 }
 .section2 .section2-content .event-container .event .event-contain .event-content {
-  width: 140px;
   height: 78px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 13px;
@@ -448,8 +446,16 @@ footer .footer-content .copyright {
   }
   .section2 .section2-content .event-container .event {
     width: 425px;
-    border: 2px solid white;
     margin: 10px auto 10px auto;
+  }
+  .section2 .section2-content .event-container .event .event-contain {
+    min-width: 345px;
+  }
+  .section2 .section2-content .event-container .event .event-contain .event-heading {
+    font-size: 22px;
+  }
+  .section2 .section2-content .event-container .event .event-contain .event-content {
+    font-size: 20px;
   }
 }
 .about-hero {
