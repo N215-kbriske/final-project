@@ -119,7 +119,7 @@ span {
   margin: 0px 14px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   nav {
     width: 450px;
     border-bottom: 2px solid #ffffff;
@@ -234,7 +234,7 @@ footer .footer-content .copyright {
   padding-left: 20px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .subscribe {
     width: 450px;
   }
@@ -414,7 +414,7 @@ footer .footer-content .copyright {
   font-weight: lighter;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .banner .banner-content-container .banner-header {
     width: 450px;
     text-align: center;
@@ -493,7 +493,7 @@ footer .footer-content .copyright {
   margin-top: 37px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .about-hero-image {
     width: 450px;
     margin: 0 auto;
@@ -587,7 +587,7 @@ footer .footer-content .copyright {
   background-position: center;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .gallery-content {
     width: 450px;
     height: 1150px;
@@ -710,7 +710,7 @@ footer .footer-content .copyright {
   color: #ee4367;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .blog-content {
     height: 1550px;
   }
@@ -792,7 +792,7 @@ footer .footer-content .copyright {
   margin: 30px 0px 57px 0px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .post-detail {
     width: 450px;
     margin: 0 auto;
@@ -871,7 +871,7 @@ a .send-message {
   align-items: center;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .contact-content {
     height: 1200px;
   }
@@ -1141,7 +1141,7 @@ a .send-message {
   letter-spacing: 1.2px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .gallery-detail-canvas {
     height: 820px;
   }
