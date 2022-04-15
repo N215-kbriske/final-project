@@ -500,11 +500,11 @@ footer .footer-content .copyright {
   }
 
   .about-hero-text {
-    margin-left: 18px;
+    margin-left: 25px;
   }
 
   hr {
-    margin-left: 18px;
+    margin-left: 25px;
   }
 
   .about-text {
@@ -876,7 +876,10 @@ a .send-message {
     height: 1200px;
   }
   .contact-content .contact-header {
-    margin-left: 18px;
+    margin-left: 25px;
+  }
+  .contact-content hr {
+    margin-left: 25px;
   }
   .contact-content .contact-container {
     flex-direction: column;
