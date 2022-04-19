@@ -414,7 +414,7 @@ footer .footer-content .copyright {
   font-weight: lighter;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .banner .banner-content-container .banner-header {
     width: 450px;
     text-align: center;
